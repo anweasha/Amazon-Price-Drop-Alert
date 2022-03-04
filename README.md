@@ -43,7 +43,8 @@ https://github.com/anweasha/Amazon-Price-Drop-Alert.git
 ```
 with the path of your "whatsapp_profile" folder.
 - After making these changes and running the code, you’ll get a bunch of files populated in the “whatsapp_profile” folder. 
-- A Chrome browser should open up with the WhatsApp page. Go ahead and use your phone to scan the QR code to log in. After logging in, you can close the browser and Selenium. 
+- A Chrome browser should open up with the WhatsApp page. Go ahead and use your phone to scan the QR code to log in. 
+- After logging in, you can close the browser and Selenium. 
 - Try re-running the code, this time you should land on a WhatsApp page that’s already logged in. But this time use the following code
 ```
 option=Options()
