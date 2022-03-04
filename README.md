@@ -12,21 +12,23 @@ A Python program to check the price of an Amazon product and send  a mail and a 
 5. WhatsApp number 
 6. The number of hours after which it should check again
 
+<br>
 
 ## Clone Project
 ```
 https://github.com/anweasha/Amazon-Price-Drop-Alert.git
 ```
+<br>
 
 ## Instructions to Run:
 
 > To send a mail
 - For safety, preferably generate an app password for the sender gmail account in case it has 2-step verification enabled.
-<br>
 - Otherwise, you need to change a setting in the Gmail account to ensure you can send a mail. 
 - Head to this website: https://myaccount.google.com/lesssecureapps
 - Make sure the setting is turned ON. If not, Python cannot log into your Gmail account.
 
+<br>
 
 > To send a WhatsApp message
 - While running the send_msg() function, a Chrome browser while pop up and you should see a screen that asks you to scan a QR code to log into WhatsApp. It means you need to manually use your phone to scan it before the program can access your WhatsApp profile.
@@ -40,7 +42,7 @@ option=Options()
 driver = webdriver.Chrome('/opt/homebrew/bin/chromedriver',options=option)
 driver.get(url1)
 ```
-instead of:
+instead of
 ```
 option=Options()
 option.add_argument(r'user-data-dir=/Users/anweashasaha/Desktop/whatsapp_profile')
@@ -49,6 +51,7 @@ driver.get(url1)
 ```
 otherwise you'll get an error.
 
+<br>
 
 ## Tech Stack Used
 - Python
